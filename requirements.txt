@@ -1,8 +1,9 @@
 algoliasearch-django>=3.0,<4.0
-django>=4.0.0,<4.1.0
+django>=4.2.28
 djangorestframework
 djangorestframework-simplejwt
 pyyaml
 requests
 django-cors-headers
 django-oauth-toolkit
+cryptography>=46.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
